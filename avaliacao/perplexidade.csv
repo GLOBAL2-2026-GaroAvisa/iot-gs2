@@ -1,0 +1,3 @@
+modelo,loss_teste,perplexidade
+base (antes),4.467099189758301,87.1036849218228
+fine-tuned (depois),0.23423224687576294,1.263938003775421

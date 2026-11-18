@@ -1,0 +1,17 @@
+tarefa,caso,origem,texto,motivos
+dia,"Dia típico, sem alertas",ia,"A previsão de hoje é de máxima de 26°C e mínima de 18°C. Dia tranquilo, sem alertas. Dica do dia: aproveite o dia com tranquilidade.",
+dia,Calor e UV altos (como no banco),ia,"Hoje a máxima será de 34°C e a mínima de 22°C. Alerta de UV (nível alto): índice máximo de 11. Calor previsto, nível médio, com máxima de 34°C. A temperatura muda muito no dia, nível baixo: de 22°C a 34°C. Dica do dia: use protetor solar e óculos e evite o sol das 10h às 16h.",
+dia,Chuva forte: 85% e 12 mm/h,ia,"Hoje a máxima será de 26°C e a mínima de 18°C. Chuva prevista, nível alto: 85% de chance e até 12 mm/h. Dica do dia: leve guarda-chuva.",
+dia,Rajadas de 62 km/h,ia,"A previsão de hoje é de máxima de 26°C e mínima de 18°C. Vento forte previsto, nível médio, com rajadas de até 62 km/h. Dica do dia: cuidado com árvores, placas e fios, e não estacione embaixo de árvores.",
+dia,Ar seco com calor,ia,"Hoje a máxima será de 33°C e a mínima de 21°C. Alerta de calor (nível médio): máxima de 33°C. Alerta de amplitude térmica (nível baixo): 21°C de manhã e 33°C à tarde. Umidade baixa, nível baixo: 24% à tarde. Dica do dia: leve garrafa de água e use roupa leve.",
+dia,Frio e grande amplitude,ia,"Hoje a máxima será de 24°C e a mínima de 11°C. Alerta de frio (nível baixo): mínima de 11°C. A temperatura muda muito no dia, nível baixo: de 11°C a 24°C. Dica do dia: leve um casaco.",
+dia,Semana sem chuva,ia,"Hoje a máxima será de 26°C e a mínima de 18°C. Semana sem chuva prevista, nível baixo. Dica do dia: economize água e regue as plantas à noite, pois há risco de queimadas.",
+dia,Exatamente nos limites das regras,ia,"Hoje a máxima será de 30°C e a mínima de 22°C. Calor previsto, nível médio, com máxima de 30°C. Radiação UV em nível médio, com índice máximo de 8. Vento forte previsto, nível médio, com rajadas de até 50 km/h. Dica do dia: leve garrafa de água e use roupa leve.",
+dia,Logo abaixo dos limites,ia,"Hoje a máxima será de 29°C e a mínima de 21°C. Dia tranquilo, sem alertas. Dica do dia: beba água ao longo do dia.",
+dia,Mais de 3 alertas,ia,"A previsão de hoje é de máxima de 36°C e mínima de 20°C. Chuva prevista, nível alto: 90% de chance e até 14 mm/h. Calor previsto, nível alto, com máxima de 36°C. Radiação UV em nível alto, com índice máximo de 12. Dica do dia: leve guarda-chuva.",
+dia,Falha: UV ausente,indisponivel,Previsão indisponível no momento. Tente novamente mais tarde.,campos ausentes: ['uv']
+dia,Falha: nenhum dado,indisponivel,Previsão indisponível no momento. Tente novamente mais tarde.,"campos ausentes: ['tmax', 'tmin', 'uv', 'chuva_prob', 'chuva_mm_h', 'vento', 'umid_min', 'semana_seca']"
+mudanca,Praia: chuva sobe e máxima cai,ia,"Atenção, o clima de Dia de praia mudou: a chance de chuva subiu de 20% para 80% e a máxima caiu de 30°C para 24°C. Leve guarda-chuva ou reveja o plano.",
+mudanca,Praia: máxima sobe,ia,A previsão para Dia de praia mudou: a máxima subiu de 25°C para 33°C. Leve água e use roupa leve.,
+mudanca,Mudança pequena,ia,A previsão para Churrasco em família não mudou muito: máxima de 29°C e chuva de 35%.,
+mudanca,Falha: chuva atual ausente,indisponivel,Previsão indisponível no momento. Tente novamente mais tarde.,campos ausentes: ['chuva_agora']
